@@ -9,77 +9,38 @@
 <body>
 
     <script type="text/javascript">
-        let steakQuestion = `Do you eat steak?\n(Please use Yes or No)`;
-        let ageQuestion = `What is your birth year?\n(Please use YYYY format)`;
-
-        function getSteakValue() {
-            return prompt(steakQuestion);
-            if (steakQuestion === "Yes") {
+       
+        
+            let steakOrNah = prompt(`Do you eat steak?\n(Please use Yes or No)`);
+            if (steakOrNah === "Yes") {
                 alert("Here's a Steak Sandwhich");
-                let ageConvertValue = 1;
-                return ageConvertValue;
-            } else if (steakQuestion === "No") {
+            } else if (steakOrNah === "No") {
                 alert("Here's a Black Bean Burger");
             } else {
                 alert("I am not sure what that means");
-            };
-
-        }
-
-        function getYearValue() {
-            return prompt(ageQuestion);
-            if (arguments < 2002) {
+            }
+                   
+            let howOld = prompt(`What is your birth year?\n(Please use YYYY format)`);
+            if (howOld < 2002) {
                 alert("SAKE SAKE SAKE!");
-                let ageConvertValue = 1;
-                return ageConvertValue;
-            } else if (ageQuestion > 2002) {
+            } else if (howOld > 2002) {
                 alert("No Sake for you!");
-                let ageConvertValue = 2;
-                return ageConvertValue;
             } else {
                 alert("You just barely made it, enjoy your sake");
-                let ageConvertValue = 1;
-                return ageConvertValue;
             }
-        }
+        
 
-        function convertUserValues() {
-            if (steakQuestion = "yes")
-        }
+       
 
-        function runProgram() {
-            getSteakValue();
-            getYearValue();
-        }
+    
 
 
 
-        // let steakOrNah = prompt(`Do you eat steak?\n(Please use Yes or No)`);
-        // if (steakOrNah === "Yes") {
-        //     let steakValue = "steak";
-        //     alert("Here's a Steak Sandwhich");
-        // } else if (steakOrNah === "No") {
-        //     let steakValue = "Black Bean Burger"
-        //     alert("Here's a Black Bean Burger");
-        // } else {
-        //     let steakValue = "Chips and Salsa"
-        //     alert("I am not sure what that means");
-        // };
+    
+      
 
-        // let userYear = prompt(`What is your birth year?\n(Please use YYYY format)`);
-        // if (userYear < 2002) {
-        //     let userBeverage = "Sake"
-        //     alert("SAKE SAKE SAKE!");
-        // } else if (userYear > 2002) {
-        //     let userBeverage = "Water";
-        //     alert("No Sake for you!");
-        // } else {
-        //     let userBeverage = "Sake";
-        //     alert("You just barely made it, enjoy your sake");
-        // }
-
-        runProgram();
-        document.write(`Enjoy your ${steakValue} and ${userBeverage} if you need anything else just let us know`);
+        
+        // document.write(`Enjoy your ${steakValue} and ${ageConvertValue} if you need anything else just let us know`);
 
 
 
