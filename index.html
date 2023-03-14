@@ -9,37 +9,57 @@
 <body>
 
     <script type="text/javascript">
-       
-        
-            let steakOrNah = prompt(`Do you eat steak?\n(Please use Yes or No)`);
-            if (steakOrNah === "Yes") {
-                alert("Here's a Steak Sandwhich");
-            } else if (steakOrNah === "No") {
-                alert("Here's a Black Bean Burger");
-            } else {
-                alert("I am not sure what that means");
-            }
-                   
-            let howOld = prompt(`What is your birth year?\n(Please use YYYY format)`);
-            if (howOld < 2002) {
-                alert("SAKE SAKE SAKE!");
-            } else if (howOld > 2002) {
-                alert("No Sake for you!");
-            } else {
-                alert("You just barely made it, enjoy your sake");
-            }
-        
-
-       
-
-    
 
 
-
-    
-      
+        let steakOrNah = prompt(`Do you eat steak?\n(Please use Yes or No)`);
+        if (steakOrNah === "Yes") {
+            alert("Here's a Steak Sandwhich");
+        } else if (steakOrNah === "No") {
+            alert("Here's a Black Bean Burger");
+        } else {
+            alert("I am not sure what that means");
+        }
 
         
+    //     let convertSteakValue = (steakOrNah) => {
+    //     switch (steakOrNah) {
+    //         case "no": return "Black Bean Burger";
+    //             break;
+    //         case "No": return "Black Bean Burger";
+    //             break;
+    //         case "yes": return "Steak Sandwich";
+    //             break;
+    //         case "Yes": return "Steak Sandwich";
+    //             break;
+    //         default : return "Black Bean Burger";
+    //             break;
+    //     }
+    // };
+
+    //     console.log(convertSteakValue);
+
+
+
+        let howOld = prompt(`What is your birth year?\n(Please use YYYY format)`);
+        if (howOld < 2002) {
+            alert("SAKE SAKE SAKE!");
+        } else if (howOld > 2002) {
+            alert("No Sake for you!");
+        } else {
+            alert("You just barely made it, enjoy your sake");
+        }
+
+
+
+
+
+
+
+
+
+
+
+
         // document.write(`Enjoy your ${steakValue} and ${ageConvertValue} if you need anything else just let us know`);
 
 
