@@ -7,17 +7,34 @@
   <body>
 
     <script type="text/javascript">
-        let steakOrNah = prompt('Do you eat steak?').toString()
-
-        steakAnswer = steakOrNah 
-        if (steakAnswer === "Yes" ){
+        let steakOrNah = prompt(`Do you eat steak?\n(Please use Yes or No)`)
+ 
+        if (steakOrNah=== "Yes" ){
+            // return "Steak";
             alert("Here's a Steak Sandwhich");
-        } else if (steakAnswer === "No" ){
+        } else if (steakOrNah === "No" ){
+            // return "Black Bean Burger";
             alert("Here's a Black Bean Burger");
         } else{
-            alert("Please type yes or no");
-            steakOrNah();
+            // return "Chips and Salsa";
+            alert("I am not sure what that means");
         };
+
+        let userYear = prompt(`What is your birth year?\n(Please use YYYY format)`)
+
+        if (userYear < 2002) {
+            // return "Sake";
+            alert("SAKE SAKE SAKE!");
+        } else if (userYear > 2002){
+            // return "Water";
+            alert("No Sake for you!");
+        } else {
+            // return "Sake"
+            alert("You just barely made it, enjoy your sake");
+        }
+
+        // document.write(`Enjoy your ${steakOrNah.val()} and ${userYear.val()} if you need anything else just let us know`);
+
         
 
       
