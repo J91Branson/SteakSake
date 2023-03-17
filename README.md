@@ -2,7 +2,7 @@
 This was originally a homework assignment from bootcamp, I revisted it to add more functionality. 
 
 ## Launching the site
-Go to https://j91branson.github.io/SteakSake/
+Go to https://j91branson.github.io/SteakSake/ ( You might have to refresh the page first)
 
 ## Functionality
 - You will be asked if you eat steak, answers can be yes or no; capitalized or all lowercase. There is a default response if the user answer is not one of those four.
