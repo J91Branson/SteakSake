@@ -10,14 +10,18 @@
 
     <script type="text/javascript">
 
+        let messageArray = [];
 
         let steakOrNah = prompt(`Do you eat steak?\n(Please use Yes or No)`);
         if (steakOrNah === "Yes") {
             alert("Here's a Steak Sandwhich");
+            messageArray.push("Steak");
         } else if (steakOrNah === "No") {
             alert("Here's a Black Bean Burger");
+            messageArray.push("Black Bean Burger");
         } else {
             alert("I am not sure what that means");
+            messageArray.push("Chips and Salsa");
         }
 
         
@@ -43,10 +47,13 @@
         let howOld = prompt(`What is your birth year?\n(Please use YYYY format)`);
         if (howOld < 2002) {
             alert("SAKE SAKE SAKE!");
+            messageArray.push("Sake");
         } else if (howOld > 2002) {
             alert("No Sake for you!");
+            messageArray.push("Soda");
         } else {
             alert("You just barely made it, enjoy your sake");
+            messageArray.push("Sake");
         }
 
 
