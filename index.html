@@ -21,10 +21,10 @@
         let messageArray = [];
 
         let steakOrNah = prompt(`Do you eat steak?\n(Please use Yes or No)`);
-        if (steakOrNah === "Yes") {
+        if (steakOrNah === "yes" || steakOrNah === "Yes") {
             alert("Here's a Steak Sandwhich");
             messageArray.push("Steak");
-        } else if (steakOrNah === "No") {
+        } else if (steakOrNah === "no" || steakOrNah === "No") {
             alert("Here's a Black Bean Burger");
             messageArray.push("Black Bean Burger");
         } else {
